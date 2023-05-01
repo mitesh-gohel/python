@@ -13,4 +13,11 @@ t12.py	unpacking of dectionary elements
 t13.py	enumerate()
 t14.py	zip()
 t15.py	How to take input from user
+t16.py	type() of class
+t17.py	class attribute and object attribute
+t18.py	packing and unpacking of list and tuple
+t19.py	unpacking of tuple
+t20.py	globals() and locals()
+t21.py	Result of locals() outside of function
+t22.py	Python is call by value or call by reference ?
 

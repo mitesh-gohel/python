@@ -1,0 +1,66 @@
+===============================
+In Python everything is object
+
+-> Using class we can create user defined onject
+-> class is blue print of object
+-> Object is instance of class
+
+
+#########
+class Dog() :
+	def __init__(self, breed) :	#constuctor 	self is reference to ther object
+		self.breed = breed #attribute
+
+my_dog = Dog("Lab")
+print(type(my_dog))
+#########
+
+
+-> Method is function inside a class
+===============================
+
+===============================
+Scope of variable in Python
+___________________________
+1. Local
+2. Enclosing 
+3. Global
+4. Built-in (buil-in variable of python)
+
+#########
+x = 'global'
+def f():
+	x = 'enclosing'
+	
+	def g():
+	x = 'local'
+		print(x)
+	
+	g()
+
+
+f()
+#########
+
+First priority : Local > Enclosing > Global > Built-in
+
+===============================
+
+===============================
+Difference between list and tuple
+___________________________
+1) List is immutable, Tuple is mutable
+2) Tuple occupies less memory compare to list,
+that's why tuple is faster then list
+3) We can declare tuple without (), but can't declare list without []
+Ex. t1 = 1, 2, 3, 4 #t1 = (1, 2, 3, 4)
+l1 = 1, 2, 3, 4  #python will consider l1 as tuple
+
+
+===============================
+
+
+===============================
+To learn about global and nonlocal --> https://realpython.com/python-namespaces-scope/#modify-variables-out-of-scope 
+===============================
+
